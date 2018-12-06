@@ -6,7 +6,7 @@ provider:
   stage: dev
   region: ap-northeast-1
   environment:
-    DEBUG: "*"
+    # DEBUG: "*"
     PAGE_LOAD_TIMEOUT: 20000
     LOGGING: true
 

@@ -163,9 +163,10 @@ anymatch@^1.3.0:
     arrify "^1.0.0"
     micromatch "^2.1.5"
 
-apollo-client@^1.9.2:
+apollo-client@^1.4.2:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/apollo-client/-/apollo-client-1.9.3.tgz#37000b3c801f4571b7b089739e696a158896aeab"
+  integrity sha512-JABKKbqvcw8DJm3YUkEmyx1SK74i+/DesEtAtyocJi10LLmeMQYQFpg8W3BG1tZsYEQ3owEmPbsdNGTly+VOQg==
   dependencies:
     apollo-link-core "^0.5.0"
     graphql "^0.10.0"
@@ -1066,6 +1067,11 @@ block-stream@*:
 bluebird@^3.0.0:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+
+bluebird@^3.4.0:
+  version "3.5.3"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
+  integrity sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
 
 bluebird@^3.5.0:
   version "3.5.0"
@@ -3316,10 +3322,6 @@ node-fetch@^1.6.0:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
-node-forge@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.7.1.tgz#9da611ea08982f4b94206b3beb4cc9665f20c300"
-
 node-libs-browser@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/node-libs-browser/-/node-libs-browser-2.0.0.tgz#a3a59ec97024985b46e958379646f96c4b616646"
@@ -4119,7 +4121,7 @@ semver@~5.0.1:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.0.3.tgz#77466de589cd5d3c95f138aa78bc569a3cb5d27a"
 
-serverless-plugin-chrome@1.0.0-55:
+serverless-plugin-chrome@^1.0.0-55:
   version "1.0.0-55"
   resolved "https://registry.yarnpkg.com/serverless-plugin-chrome/-/serverless-plugin-chrome-1.0.0-55.tgz#7034bb3971c18053298edda7f560168f459d4bc2"
   integrity sha512-xs3aBh7MtfvmPUPTpIwAOtV+SdQ6Wf5x38kIJvNrDPtMOHD+TZa155CH+2iR7kIqhEsMWJe9dJa3xFvh1cqjLw==
@@ -4141,16 +4143,17 @@ serverless-webpack@4.0.0:
     semver "^5.4.1"
     ts-node "^3.2.0"
 
-serverless@1.24.1:
-  version "1.24.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.24.1.tgz#dd092a186d404dc9e48151d1f7cc2df7d270355a"
+serverless@1.21.1:
+  version "1.21.1"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.21.1.tgz#083274fc996e23a937c3f6636de5e6dce9c29fdf"
+  integrity sha1-CDJ0/JluI6k3w/ZjbeXm3OnCn98=
   dependencies:
     "@serverless/fdk" "^0.5.1"
-    apollo-client "^1.9.2"
+    apollo-client "^1.4.2"
     archiver "^1.1.0"
     async "^1.5.2"
     aws-sdk "^2.75.0"
-    bluebird "^3.5.0"
+    bluebird "^3.4.0"
     chalk "^2.0.0"
     ci-info "^1.1.1"
     download "^5.0.2"
@@ -4170,7 +4173,6 @@ serverless@1.24.1:
     minimist "^1.2.0"
     moment "^2.13.0"
     node-fetch "^1.6.0"
-    node-forge "^0.7.1"
     opn "^5.0.0"
     raven "^1.2.1"
     rc "^1.1.6"
@@ -4179,10 +4181,8 @@ serverless@1.24.1:
     semver-regex "^1.0.0"
     shelljs "^0.6.0"
     tabtab "^2.2.2"
-    update-notifier "^2.2.0"
     uuid "^2.0.2"
     write-file-atomic "^2.1.0"
-    yaml-ast-parser "0.0.34"
 
 set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
@@ -4697,7 +4697,7 @@ unzip-response@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/unzip-response/-/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
 
-update-notifier@^2.2.0, update-notifier@^2.3.0:
+update-notifier@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-2.3.0.tgz#4e8827a6bb915140ab093559d7014e3ebb837451"
   dependencies:
@@ -4968,10 +4968,6 @@ y18n@^3.2.1:
 yallist@^2.0.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
-
-yaml-ast-parser@0.0.34:
-  version "0.0.34"
-  resolved "https://registry.yarnpkg.com/yaml-ast-parser/-/yaml-ast-parser-0.0.34.tgz#d00f3cf9d773b7241409ae92a6740d1db19f49e6"
 
 yargs-parser@^7.0.0:
   version "7.0.0"
